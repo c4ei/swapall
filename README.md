@@ -1,4 +1,4 @@
-# Perseus Swap Stream
+# Sawon Swap Stream
 
 Use this dapp to allow your users to send or receive monthly crypto streams in any cryptocurrency available. Users can swap any coin in any chain for Daix to send a Superfluid Stream to another wallet that can swap the streamed Daix to any coin of their choosing.
 
@@ -46,3 +46,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+const widgetConfig: WidgetConfig = {
+  integrator: 'Perseus',
+  fromChain: 137,
+  fromToken: '0x1305F6B6Df9Dc47159D12Eb7aC2804d4A33173c2',
+  containerStyle: {
+    border: '1px solid rgb(234, 234, 234)',
+    borderRadius: '16px',
+  },
+};
